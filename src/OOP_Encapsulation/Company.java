@@ -2,9 +2,9 @@ package OOP_Encapsulation;
 
 public class Company {
 
-	public String name;
-	public String logo;
-	public int totalEmp;
+	private String name;
+	private String logo;
+	private int totalEmp;
 
 	private int tenderAmount;
 	private String information;

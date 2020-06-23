@@ -15,6 +15,8 @@ public class PageTest {
 		p.header();
 		p.title();
 		p.getPageInfo();
+		p.doLogin("admin", "admin");;
+		
 		
 		
 		

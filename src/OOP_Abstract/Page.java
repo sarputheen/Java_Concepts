@@ -20,7 +20,8 @@ public abstract class Page {
 	public static void getPageInfo() {
 		System.out.println("Page -- getPage Info");
 	}
-
+	
+	public abstract  void doLogin(String un, String pwd) ;
 	public final void logo() {
 		System.out.println("Page -- logo");
 
