@@ -1,6 +1,5 @@
 package InnerClass;
 
-
 class Outer_Demo {
    int num;
    
@@ -15,7 +14,7 @@ class Outer_Demo {
       }
       int i=30;
 
-      final static int j=40;
+		 final static int j=40; 
 
       int j(){
 
