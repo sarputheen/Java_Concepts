@@ -4,21 +4,22 @@ public class Prime_Numbers {
 
 	public static void main (String[] args)
 	   {		
+		 int i =0;
+	       int num =0;
+	       //Empty String
 	       String  primeNumbers = "";
 
-	       for (int i = 1; i <= 100; i++)         
+	       for (i = 1; i <= 100; i++)         
 	       { 		  	  
 	          int counter=0; 	  
-	          for(int num =i; num>=1; num--)
+	          for(num =i; num>=1; num--)
 		  {
 	             if(i%num==0)
 		     {
 	 		counter = counter + 1;
 		     }
 		  }
-	       // the counter value is always 2 since the prime numbers can be divided by 1 and itself
-	          
-		  if (counter ==2) 
+		  if (counter ==2)
 		  {
 		     //Appended the Prime number to the String
 		     primeNumbers = primeNumbers + i + " ";

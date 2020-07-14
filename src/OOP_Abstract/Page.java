@@ -22,6 +22,7 @@ public abstract class Page {
 	}
 	
 	public abstract  void doLogin(String un, String pwd) ;
+	
 	public final void logo() {
 		System.out.println("Page -- logo");
 
